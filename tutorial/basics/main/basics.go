@@ -56,7 +56,11 @@ func main() {
 	v5 := os("win")
 	v6 := Vertex{1, 2}
 
+	m := make(map[string]Vertex)
+	m["one"] = Vertex{}
+
 	pt()
 	fmt.Println(v1, v2, v3, v4, v5)
 	fmt.Println(v6, v6.X)
+	fmt.Println(m["one"])
 }
